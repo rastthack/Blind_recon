@@ -64,31 +64,31 @@ Command:
 
 Output:
 
-[2026-04-18 12:18:24] Target: google.com
-[2026-04-18 12:18:24] Output directory: a.txt
-[2026-04-18 12:18:24] Running: WHOIS
-[2026-04-18 12:18:26] Saved: a.txt/01_whois.txt
-[2026-04-18 12:18:26] Running: DNS ANY
-[2026-04-18 12:18:26] Saved: a.txt/02_dig_any.txt
-[2026-04-18 12:18:26] Running: DNS NS
-[2026-04-18 12:18:27] Saved: a.txt/03_dig_ns.txt
-[2026-04-18 12:18:27] Running: DNS MX
-[2026-04-18 12:18:27] Saved: a.txt/04_dig_mx.txt
-[2026-04-18 12:18:27] Running: NSLOOKUP
-[2026-04-18 12:18:27] Saved: a.txt/05_nslookup.txt
-[2026-04-18 12:18:27] Running: HOST
-[2026-04-18 12:18:27] Saved: a.txt/06_host.txt
-[2026-04-18 12:18:27] Running: PING (4 packets)
-[2026-04-18 12:18:30] Saved: a.txt/07_ping.txt
-[2026-04-18 12:18:30] Running: Traceroute
-[2026-04-18 12:19:03] Saved: a.txt/08_traceroute.txt
-[2026-04-18 12:19:03] Running: HTTP headers
-[2026-04-18 12:19:03] Saved: a.txt/09_http_headers.txt
-[2026-04-18 12:19:03] Running: HTTPS headers
-[2026-04-18 12:19:04] Saved: a.txt/10_https_headers.txt
-[2026-04-18 12:19:04] Skipping nmap scans (nmap not installed)
-[2026-04-18 12:19:04] Skipping WhatWeb (whatweb not installed)
-[2026-04-18 12:19:04] Blind recon complete. Results saved in: a.txt
+ Target: google.com
+ Output directory: a.txt
+ Running: WHOIS
+ Saved: a.txt/01_whois.txt
+ Running: DNS ANY
+ Saved: a.txt/02_dig_any.txt
+ Running: DNS NS
+ Saved: a.txt/03_dig_ns.txt
+ Running: DNS MX
+ Saved: a.txt/04_dig_mx.txt
+ Running: NSLOOKUP
+ Saved: a.txt/05_nslookup.txt
+ Running: HOST
+ Saved: a.txt/06_host.txt
+ Running: PING (4 packets)
+ Saved: a.txt/07_ping.txt
+ Running: Traceroute
+ Saved: a.txt/08_traceroute.txt
+ Running: HTTP headers
+ Saved: a.txt/09_http_headers.txt
+ Running: HTTPS headers
+ Saved: a.txt/10_https_headers.txt
+ Skipping nmap scans (nmap not installed)
+ Skipping WhatWeb (whatweb not installed)
+ Blind recon complete. Results saved in: a.txt
 
 This example shows a successful run where optional tools were missing and safely skipped.
 
